@@ -24,7 +24,7 @@ class String
     qstmrk = sentence_arr.include?("?") 
     exclaim = sentence_arr.include?("!")
   
-   sentence_arr << self.split(".")
+   sentence_arr << self.split([.)
    sentence_arr << self.split("?")
    sentence_arr << self.split("!")
    
