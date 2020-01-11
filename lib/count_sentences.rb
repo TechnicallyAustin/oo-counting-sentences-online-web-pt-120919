@@ -20,8 +20,7 @@ class String
 
   def count_sentences
    sentence_arr = []
-  self.split(/[.!?]/).reject {|i| i.empty?}
+   sentence_arr= self.split(/[.!?]/).reject {|i| i.empty?}
   
  
   end
-end
