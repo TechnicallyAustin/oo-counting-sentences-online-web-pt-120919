@@ -20,18 +20,8 @@ class String
 
   def count_sentences
    sentence_arr = []
-    period = sentence_arr.include?(".")
-    qstmrk = sentence_arr.include?("?") 
-    exclaim = sentence_arr.include?("!")
+  self.split(/[.!?]/)
   
-   sentence_arr << self.split([.)
-   sentence_arr << self.split("?")
-   sentence_arr << self.split("!")
-   
-   sentence_arr.each do |i|
-     i
-   end
-   sentence_arr.size
-  
+ 
   end
 end
